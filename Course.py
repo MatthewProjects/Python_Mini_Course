@@ -110,10 +110,19 @@ num_sentences = len(sentences)
 
 print("Number of sentences:", num_sentences)
 
-print(course_description.replace("Python", "Javascript"))
 
-print(course_description.replace("programming", "coding"))
+
+
+
+modified_description = course_description.replace("Python", "Javascript")
+
+modified_description = course_description.replace("programming", "coding")
+
+print(modified_description)
 
 print(course_description.upper())
 
 print(course_description.lower())
+
+
+
