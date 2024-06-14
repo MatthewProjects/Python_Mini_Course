@@ -121,4 +121,7 @@ modified_description = javascript_description.replace("programming", "coding")
 
 print(modified_description)
 
+print(modified_description.upper())
+
+print(modified_description.lower())
 
