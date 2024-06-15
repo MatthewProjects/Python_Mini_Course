@@ -1,0 +1,12 @@
+name = 'John'
+food = 'Pizza'
+weight = 75.5
+is_student = True
+city = "Paris"
+year = 2020
+is_raining = True
+price = 19.99
+product_name = "Chocolate Chip Cookies"
+quantity_available = 24
+price_per_unit = 2.99
+is_in_stock = True
