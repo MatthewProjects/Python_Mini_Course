@@ -3,6 +3,7 @@ import casting
 import overwriting_variables
 import modifying_strings
 import string_formatting
+import string_indexing
 
 if __name__ == "__main__":
     print("Calling data_types.main()")
@@ -24,3 +25,7 @@ if __name__ == "__main__":
     print("\nCalling string_formatting.main()")
     string_formatting.main()
     print("Finished string_formatting.main()")
+
+    print("\nCalling string_indexing.main()")
+    string_indexing.main()
+    print("Finished string_indexing.main()")
