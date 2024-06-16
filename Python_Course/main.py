@@ -4,8 +4,10 @@ import overwriting_variables
 import modifying_strings
 import string_formatting
 import string_indexing
+import string_slicing_indexing
 
 if __name__ == "__main__":
+
     print("Calling data_types.main()")
     data_types.main()
     print("Finished data_types.main()")
@@ -29,3 +31,7 @@ if __name__ == "__main__":
     print("\nCalling string_indexing.main()")
     string_indexing.main()
     print("Finished string_indexing.main()")
+
+    print("\nCalling string_slicing_indexing.main()")
+    string_slicing_indexing.main()
+    print("Finished string_slicing_indexing.main()")
