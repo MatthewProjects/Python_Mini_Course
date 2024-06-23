@@ -3,7 +3,7 @@ def main():
     num1 = 2
     num2 = 6
 
-    # Perform the arithmetic operations
+    # Performance of the arithmetic operations
     sum_result = num1 + num2
     sub_result = num1 - num2
     mul_result = num1 * num2
