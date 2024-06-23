@@ -4,7 +4,7 @@ import overwriting_variables
 import modifying_strings
 import string_formatting
 import string_indexing
-
+import str_slice
 
 if __name__ == "__main__":
 
@@ -32,4 +32,6 @@ if __name__ == "__main__":
     string_indexing.main()
     print("Finished string_indexing.main()")
 
-    
+    print("\nCalling str_slice.main()")
+    str_slice.main()
+    print("Finished str_slice.main()")
