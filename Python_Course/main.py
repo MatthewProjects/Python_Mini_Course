@@ -7,6 +7,7 @@ import string_indexing
 import str_slice
 import arithmetic_operators  # Importing arithmetic_operators
 import assignment_operators  # Importing assignment_operators
+import string_operators
 
 if __name__ == "__main__":
 
@@ -45,3 +46,9 @@ if __name__ == "__main__":
     print("\nCalling assignment_operators.main()")  # Calling main function from assignment_operators
     assignment_operators.main()  # Assuming there is a main function in assignment_operators
     print("Finished assignment_operators.main()")
+
+
+    print("\nCalling string_operators.main()")
+    string_operators.main()
+    print("Finished calling string_operators.main()")
+    
