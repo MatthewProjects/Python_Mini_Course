@@ -26,16 +26,6 @@ print("The last character of str2 is: ", str2[4])
 # Printing out the substring from 2nd to 5th character to console
 print("The substring of str1 from the 2nd to the 5th character is: ", str1[1:5])
 
-# Print a grid of 3x3 with "O" in each cell
-for _ in range(3):
-    print("O O O")
-
-print()
-
-# Print a grid of 2x4 with "*" and a hollow center
-print("****")
-print("    ")
-print("****")
 
 
 
