@@ -26,6 +26,41 @@ print("The last character of str2 is: ", str2[4])
 # Printing out the substring from 2nd to 5th character to console
 print("The substring of str1 from the 2nd to the 5th character is: ", str1[1:5])
 
+# Add a line separator
+print("\n")
+
+
+# Print a grid of 3x3 with "O" in each cell
+for _ in range(3):
+    print("O O O")
 
 
 
+# Add a line separator
+print("\n")
+
+
+
+# Print a 2x4 grid with * and a hollow middle
+# Print the top row of *'s
+print("****")
+
+# Print the middle hollow row
+print("    ")
+
+# Print the bottom row of *'s
+print("****")
+
+# Add a line separator
+print("\n")
+
+# Print a 4x6 grid with X and a hollow middle
+# Print the top row of X's
+print("X" * 6)
+
+# Print the middle hollow rows
+for _ in range(2):
+    print("X" + " " * 4 + "X")
+
+# Print the bottom row of X's
+print("X" * 6)
