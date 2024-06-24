@@ -5,7 +5,8 @@ import modifying_strings
 import string_formatting
 import string_indexing
 import str_slice
-import operators  # Importing operators
+import arithmetic_operators  # Importing arithmetic_operators
+import assignment_operators  # Importing assignment_operators
 
 if __name__ == "__main__":
 
@@ -37,6 +38,10 @@ if __name__ == "__main__":
     str_slice.main()
     print("Finished str_slice.main()")
 
-    print("\nCalling operators.main()")  # Calling main function from operators
-    operators.main()  # Assuming there is a main function in operators
-    print("Finished operators.main()")
+    print("\nCalling arithmetic_operators.main()")  # Calling main function from arithmetic_operators
+    arithmetic_operators.main()  # Assuming there is a main function in arithmetic_operators
+    print("Finished arithmetic_operators.main()")
+
+    print("\nCalling assignment_operators.main()")  # Calling main function from assignment_operators
+    assignment_operators.main()  # Assuming there is a main function in assignment_operators
+    print("Finished assignment_operators.main()")
