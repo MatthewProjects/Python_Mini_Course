@@ -64,3 +64,5 @@ for _ in range(2):
 
 # Print the bottom row of X's
 print("X" * 6)
+
+
